@@ -1,0 +1,28 @@
+:root {
+  --white: #FFFFFF;
+
+  --gray-100: #E1E1E6;
+  --gray-300: #A8A8B3;
+  --gray-400: #93939b;
+  --gray-700: #323238;
+  --gray-800: #29292E;
+  --gray-850: #1d1e25;
+  --gray-875: #191a20;
+  --gray-900: #121214;
+  
+  --green: #96e6a1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Roboto";
+}
+
+button {
+  cursor: pointer;
+}
